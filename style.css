@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+
+.content {
+	    font-family: 'Raleway', sans-serif;
+		font-weight: 300;
+		text-align: left;
+		color: darkgray;
+		font-size: 16px;
+}
+
+h1 h2 h3	{
+	    font-family: 'Montserrat', sans-serif;
+		font-weight: 300;
+		text-align: left;
+		color: white;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 18px;
+}
+.agua	{
+	font-family: 'Cabin';
+	font-size: 72px;
+	color: #9AB1C1;
+	font-weight: bolder;
+	text-decoration: overline;
+	letter-spacing: -1pt;
+	line-height: 60px;
+	align-content: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 0px 15px 15px 0px;
+	
+}
+
+
+.feature	{
+	wiidth: 1100px;
+	height: 480px;
+	margin-top: 75px;
+	padding: 20px 0 0 20px;
+	background-color: black;
+	opacity: 70%;	
+}
+.child {
+  ...
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.phone {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.portrait {
+	width: 480px;
+	float: left;
+	position: relative;
+	min-height: 1px;
+  	padding-left: 5px;
+  	padding-right: 5px;	
+}
+
+.handheldSmall	{
+	width: 480px;
+	flex: auto;	
+}
+
+.divblock	{
+	witdth: 1100px;
+	height: 300px;
+	margin: auto;
+}
+
+.image-block	{
+	width: auto;
+	align-content: center;
+	margin-top: 100px;
+}
+
+.h1-title	{
+	font-family: "aguafina-script";
+	margin: 0;
+	padding:0 15px 15px 0;
+	color: white;
+	font-family: "aguafina-script";
+	font-size: 18px;	
+}
+
+.flex-justify	{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	margin-top: 75px;
+}
+
+.top-padding	{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	height: 632px;
+	margin-top: 100px;
+}
+
+
+@media handheld{
+.mobile {
+	width: 480px;
+	display: flex;
+	}
+
+}
